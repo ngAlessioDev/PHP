@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gestione Scuola</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mt-4 mb-4">Gestione Corsi</h1>
+
+      <!-- Inserisci qui i tuoi form per corsi, studenti, insegnanti e personale ATA -->
+
+      <div class="card mt-4">
+        <div class="card-header">Aggiungi/Modifica/Elimina Corso</div>
+        <div class="card-body">
+          <form action="backend.php" method="post">
+            <div class="form-group">
+              <label for="courseId">ID Corso</label>
+              <input
+                type="text"
+                class="form-control"
+                id="courseId"
+                name="course_id"
+              />
+            </div>
+            <div class="form-group">
+              <label for="courseName">Nome Corso</label>
+              <input
+                type="text"
+                class="form-control"
+                id="courseName"
+                name="course_name"
+              />
+            </div>
+            <button
+              type="submit"
+              class="btn btn-primary"
+              name="action"
+              value="add"
+            >
+              Aggiungi Corso
+            </button>
+            <button
+              type="submit"
+              class="btn btn-primary"
+              name="action"
+              value="edit"
+            >
+              Modifica Corso
+            </button>
+            <button
+              type="submit"
+              class="btn btn-danger"
+              name="action"
+              value="delete"
+            >
+              Elimina Corso
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------------------------------->
+
+    <div class="container">
+      <h1 class="mt-4 mb-4">Gestione Docenti</h1>
+
+      <!-- Inserisci qui i tuoi form per corsi, studenti, insegnanti e personale ATA -->
+
+      <div class="card mt-4">
+        <div class="card-header">Aggiungi/Modifica/Elimina Docente</div>
+        <div class="card-body">
+          <form action="backend.php" method="post">
+            <div class="form-group">
+              <label for="courseId">ID Docente</label>
+              <input
+                type="text"
+                class="form-control"
+                id="courseId"
+                name="course_id"
+              />
+            </div>
+            <div class="form-group">
+              <label for="courseName">Nome Docente</label>
+              <input
+                type="text"
+                class="form-control"
+                id="courseName"
+                name="course_name"
+              />
+            </div>
+            <button
+              type="submit"
+              class="btn btn-primary"
+              name="action"
+              value="add"
+            >
+              Aggiungi Docente
+            </button>
+            <button
+              type="submit"
+              class="btn btn-primary"
+              name="action"
+              value="edit"
+            >
+              Modifica Docente
+            </button>
+            <button
+              type="submit"
+              class="btn btn-danger"
+              name="action"
+              value="delete"
+            >
+              Elimina Docente
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------------------------------->
+
+    <div class="container">
+      <h1 class="mt-4 mb-4">Gestione Studenti</h1>
+
+      <!-- Inserisci qui i tuoi form per corsi, studenti, insegnanti e personale ATA -->
+
+      <div class="card mt-4">
+        <div class="card-header">Aggiungi/Modifica/Elimina Studente</div>
+        <div class="card-body">
+          <form action="backend.php" method="post">
+            <div class="form-group">
+              <label for="courseId">ID Studente</label>
+              <input
+                type="text"
+                class="form-control"
+                id="courseId"
+                name="course_id"
+              />
+            </div>
+            <div class="form-group">
+              <label for="courseName">Nome Studente</label>
+              <input
+                type="text"
+                class="form-control"
+                id="courseName"
+                name="course_name"
+              />
+            </div>
+            <button
+              type="submit"
+              class="btn btn-primary"
+              name="action"
+              value="add"
+            >
+              Aggiungi Studente
+            </button>
+            <button
+              type="submit"
+              class="btn btn-primary"
+              name="action"
+              value="edit"
+            >
+              Modifica Studente
+            </button>
+            <button
+              type="submit"
+              class="btn btn-danger"
+              name="action"
+              value="delete"
+            >
+              Elimina Studente
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------------------------------->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
